@@ -66,7 +66,8 @@ function init_loader(){
 function stop_loader(){
 	dialogloader.dialog( "close" );		
 }
-/* Manage Tickets Tab */
+/* Manage Tickets Tab */ 
+@waldemaris //*in the ticket id search tab it does not filter the search
 function quote_post(_ticketID,_ticketPostID){
 	init_loader();
 	$.ajax({
